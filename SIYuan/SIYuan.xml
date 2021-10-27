@@ -42,5 +42,5 @@
   <Environment/>
   <Labels/>
   <Config Name="Web UI" Target="6806" Default="6806" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6806</Config>
-  <Config Name="Notes" Target="/Notes/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Sync/Notes/</Config>
+  <Config Name="Notes" Target="/Notes/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"></Config>
 </Container>
