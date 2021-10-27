@@ -17,7 +17,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1635325347</DateInstalled>
+  <DateInstalled>1635340400</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
@@ -39,8 +39,21 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Environment/>
+  <Environment>
+    <Variable>
+      <Value/>
+      <Name>accessAuthCode</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>servePath</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
   <Labels/>
   <Config Name="Web UI" Target="6806" Default="6806" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6806</Config>
-  <Config Name="Notes" Target="/root/Documents/SiYuan/data/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Notes" Target="/root/Documents/SiYuan/data/" Default="" Mode="rw" Description="Location on Unraid where you want to store your notes." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Web GUI Access PW" Target="accessAuthCode" Default="" Mode="" Description="No Web GUI access code if left blank" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="Server Patth" Target="servePath" Default="" Mode="" Description="Used to specify the server path, the default value when left empty is `window.location.hostname+" Type="Variable" Display="always" Required="false" Mask="false"/>
 </Container>
