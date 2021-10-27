@@ -12,12 +12,12 @@
   <Overview>SiYuan is a local-first personal knowledge management system, support fine-grained block-level reference and Markdown WYSIWYG.</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:6806]</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/Tech-Weasel/Unraid_Templates/main/SIYuan/SIYuan.xml</TemplateURL>
   <Icon>https://camo.githubusercontent.com/b637054a2f0604c25fe9876a476117d96e16a9ec9698016252b50769108839f2/68747470733a2f2f62336c6f672e6f72672f696d616765732f6272616e642f73697975616e2d3132382e706e67</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1635287979</DateInstalled>
+  <DateInstalled>1635325347</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
@@ -34,7 +34,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir></HostDir>
+      <HostDir/>
       <ContainerDir>/root/Documents/SiYuan/data/</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -42,5 +42,5 @@
   <Environment/>
   <Labels/>
   <Config Name="Web UI" Target="6806" Default="6806" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6806</Config>
-  <Config Name="Notes" Target="/root/Documents/SiYuan/data/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Notes" Target="/root/Documents/SiYuan/data/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
 </Container>
