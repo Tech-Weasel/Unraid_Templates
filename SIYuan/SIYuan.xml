@@ -34,7 +34,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/Sync/Notes/</HostDir>
+      <HostDir></HostDir>
       <ContainerDir>/Notes/</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
