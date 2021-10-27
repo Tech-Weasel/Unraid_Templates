@@ -17,7 +17,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1635342045</DateInstalled>
+  <DateInstalled>1635367460</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
@@ -38,9 +38,15 @@
       <ContainerDir>/root/Documents/SiYuan/data/</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/SiYuan</HostDir>
+      <ContainerDir>/root/Documents/SiYuan/conf/</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <Environment/>
   <Labels/>
   <Config Name="Web UI" Target="6806" Default="6806" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6806</Config>
   <Config Name="Notes" Target="/root/Documents/SiYuan/data/" Default="" Mode="rw" Description="Location on Unraid where you want to store your notes." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="AppData Config Path" Target="/root/Documents/SiYuan/conf/" Default="/mnt/user/appdata/SiYuan" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/SiYuan</Config>
 </Container>
